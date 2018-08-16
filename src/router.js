@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import AppPosts from './components/AppPosts.vue'
+import AppPosts from './pages/AppPosts.vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
