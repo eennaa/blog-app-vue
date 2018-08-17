@@ -10,4 +10,4 @@ export default class Posts {
   }
 }
 
-export const post = new Posts()
+export const posts = new Posts()

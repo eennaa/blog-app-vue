@@ -17,6 +17,15 @@ export default {
     return {
       posts: []
     }
+  },
+
+  created () {
+    posts
+    .getAll()
+    .then((response) => {
+              this.posts = response.data
+           })
+    .catch((err) => console.log(err))
   }
 }
 </script>
